@@ -1,0 +1,51 @@
+:root {
+    /* Brand colours */
+    --color-ink: #26342F;
+    --color-amber: #C98532;
+    --color-amber-heading: #B8731F;
+    --color-amber-dark: #8A5410;
+    --color-leaf: #6B8E4E;
+    --color-gold: #EDAF3A;
+
+    /* Background colours */
+    --color-cream: #FDFBF5;
+    --color-sand: #F3ECDD;
+
+    /* Text and borders */
+    --color-body: #44524C;
+    --color-border: #E7DFCB;
+
+    /* Typography */
+    --font-heading: 'Fredoka', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+
+    /* Layout */
+    --container-width: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-cream);
+    color: var(--color-body);
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+h1,h2,
+h3 {
+    color: var(--color-ink);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
